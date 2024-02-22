@@ -1,0 +1,178 @@
+EVENT HOME:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        Search Events
+    </div>
+<br>
+    <div class="container1">
+<div class="box">
+    <br>
+    <div class="event event01"> EVENT 1</div>
+    <img src="pexels-photo-2774556.webp" alt="image"  height="300px" width="300px" loading="lazy"/>
+    <p>23/may/2024 </p>
+    <p>Seats available:23</p> 
+    <button type="submit">Book Now</button> 
+    <br><br><br><br>
+</div>
+
+<div class="box">
+    <br>
+    <div class= "event event02"> EVENT 2</div>
+    <img src="pexels-photo-2774556.webp" alt="image"  height="300px" width="300px" loading="lazy"/>
+    <p>23/may/2024 </p>
+    <p>Seats available:23</p> 
+    <button type="submit">Book Now</button>
+    <br><br><br><br>
+</div>
+
+
+<div class="box">
+    <br>
+    <div class="event event03"> EVENT 3</div>
+    <img src="pexels-photo-2774556.webp" alt="image"  height="300px" width="300px" loading="lazy"/>
+    <p>23/may/2024 </p>
+    <p>Seats available:23</p> 
+    <button type="submit">Book Now</button>
+    <br><br><br><br>
+</div>
+
+<div class="box">
+    <br>
+    <div class="event event04"> EVENT 4</div>
+    <img src="pexels-photo-2774556.webp" alt="image"  height="300px" width="300px" loading="lazy"/>
+    <div class="aaru">
+        <p>23/may/2024 </p>
+    <p>Seats available:23</p> 
+    <button type="submit">Book Now</button>
+    </div>  
+    </div>
+    <br><br><br><br>
+</div>
+
+</div>
+
+</body>
+</html>
+
+CSS CODE
+
+.container{
+    border: solid;
+    text-align: center;
+    align-items: end;
+}
+.event{
+    color: blueviolet;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    display:grid;
+
+    
+    
+}
+
+.event01{background-color: aqua;}
+.event02{background-color:rebeccapurple;}
+.event03{background-color: yellowgreen;}
+.event04{background-color: brown;}
+   
+    
+.container1{
+    display: flex;
+    border: solid;
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-content: space-between;
+
+}
+
+
+
+
+SURVEY FORM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="survey-form">
+  <h2> Survey Form </h2>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="feedback">How was your experience?:</label><br>
+  <textarea id="feedback" name="feedback"></textarea><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+CSS CODE
+
+#survey-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#survey-form label {
+  display: block;
+  margin-top: 20px;
+}
+
+#survey-form input,
+#survey-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#survey-form input[type="submit"] {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
